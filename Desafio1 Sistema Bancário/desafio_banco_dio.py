@@ -25,6 +25,7 @@ while True:
             movimentacao.append(f' +R${valor_deposito:.2f} // {datetime.today().replace(microsecond=0)}')
             saldo += valor_deposito
             
+            
         else:
             print("apenas depositos positivos")
             
@@ -56,6 +57,4 @@ while True:
         print("===================================")     
 
     elif operacao == "f":
-        break           
-
-
+        break        
